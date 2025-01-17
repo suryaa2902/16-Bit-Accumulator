@@ -21,7 +21,7 @@
 module accumulator(
     input [15:0] in,
     input clk, reset,
-    output reg [15:0] out
+    output reg [20:0] out
     );
     always@(posedge clk) 
     begin
