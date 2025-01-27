@@ -24,7 +24,7 @@
 module accumulator_tb; 
 reg clk, reset; 
 reg [15:0] in; 
-wire [15:0] out; 
+  wire [20:0] out; 
 accumulator dft(in, out, clk, reset); 
 initial begin 
 clk =1'b0; 
